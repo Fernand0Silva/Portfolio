@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+  *{
+    background-color: blue;
+  }
+  .p{
+    position: relative;
+    left: 40%;
+
+  }
+}
+
+@media (max-width: 480px){
+*{
+    background-color: red;
+}
+.h1{
+    display: flex;
+    position: absolute;
+    left: 35%;
+    margin: 10px;
+}
+.foto-perfil{
+    margin: 10px;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+    left: 15%;
+    top: 30px;
+    
+}
+.p{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 50%;
+    gap: 2px;
+    padding: 10px;
+    position: relative;
+    left: 28%;
+    top: 1rem;
+
+}
+.bloco-imgs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 3px;
+    position: relative;
+    top: -2rem;  
+    width: 50%;
+    left: 30%;
+}
+.bloco-projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 8px;
+    padding: 10px 5px 5px 5px;
+    position: relative;
+    top: -1rem;
+    left: 30%;
+    width: 20%;
+    color: black;
+}
+}

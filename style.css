@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: gray;
+}
+.h1{
+    display: flex;
+    position: absolute;
+    left: 15%;
+    margin: 10px;
+    
+}
+.foto-perfil{
+    margin: 10px;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+    left: 10%;
+    top: 30px;
+    
+}
+.p{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 50%;
+    gap: 2px;
+    padding: 10px;
+    position: relative;
+    left: 28%;
+    top: -9rem;
+
+}
+.bloco-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -3rem;  
+    width: 50%;
+    left: 30%;
+}
+#icons{
+ width: 5rem;
+ height: 5rem;
+ border-radius: 50%;
+}
+.bloco-projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 8px;
+    padding: 10px 5px 5px 5px;
+    position: relative;
+    top: -10rem;
+    left: 13%;
+    width: 20%;
+    color: black;
+}
+.bloco-imgs,li{
+    padding: 5px;
+}
+ul{
+list-style: none;
+
+}
+a{
+text-decoration: none !important;
+color: black;
+}
+a:hover{
+color: red;
+}
