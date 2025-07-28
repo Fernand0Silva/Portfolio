@@ -3,6 +3,8 @@
     padding: 0;
     border-radius: 0;
     background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .h1{
     display: flex;
@@ -30,6 +32,7 @@
     position: relative;
     left: 28%;
     top: -9rem;
+    font-size: 20px;
 
 }
 .bloco-imgs{
@@ -54,7 +57,7 @@
     gap: 8px;
     padding: 10px 5px 5px 5px;
     position: relative;
-    top: -10rem;
+    top: -8rem;
     left: 13%;
     width: 20%;
     color: black;
